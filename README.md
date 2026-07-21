@@ -9,32 +9,6 @@ A minimal Notion greeting widget with:
 - Automatic light/dark theme adaptation
 - Local fallback quotes when the quote API is unavailable
 
-## Important limitations
-
-A normal website embedded in Notion cannot directly read:
-
-- The current Notion user's profile name
-- The timezone selected inside Notion settings
-
-The widget therefore:
-
-- Uses the browser/device timezone automatically
-- Gets the name from the URL or `config.js`
-- Supports an explicit IANA timezone through the URL
-
-## GitHub Pages setup
-
-Upload these files to the root of a GitHub repository:
-
-- `index.html`
-- `style.css`
-- `script.js`
-- `config.js`
-
-Enable GitHub Pages under:
-
-`Settings → Pages → Deploy from a branch → main → / (root)`
-
 ## Personalize the embed URL
 
 Base URL:
